@@ -1,0 +1,27 @@
+.full{
+    margin: 100px;
+    padding: 0px;
+}
+.box1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    margin: 50px 0px;
+}
+.box1 .row1{
+    border: 9px solid rgb(247, 245, 245);
+    width: 230px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+    margin-right: 30px;
+    margin-bottom: 2px;
+}
+
+.box1 .row2{
+    border: 9px solid rgb(247, 245, 245);
+    width: 230px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+    margin-right: 30px;
+    margin-bottom: 2px;
+}

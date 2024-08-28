@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 10px 0px 0px 20px; /* Add top padding to avoid overlap with the homebar */
+  width: 100%;
+}

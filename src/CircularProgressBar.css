@@ -1,0 +1,20 @@
+.circular-progress-bar .circular-bg {
+    stroke: #eee; /* Background color of the circle */
+}
+
+.circular-progress-bar .circular-progress {
+    transition: stroke-dashoffset 0.5s ease;
+    stroke: #00f; /* Default progress bar color */
+}
+
+.circular-progress-bar .low {
+    stroke: red;
+}
+
+.circular-progress-bar .medium {
+    stroke: orange;
+}
+
+.circular-progress-bar .high {
+    stroke: green;
+}

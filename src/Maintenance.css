@@ -1,0 +1,47 @@
+/* Maintenance.css */
+
+.maintenance-page {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for contrast */
+    margin: 150px;
+}
+
+.maintenance-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.maintenance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.maintenance-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.maintenance-card:hover {
+    transform: scale(1.05);
+}
+
+.maintenance-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007BFF; /* Bootstrap primary color */
+}
+
+.maintenance-card p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.maintenance-card strong {
+    color: #333;
+}
